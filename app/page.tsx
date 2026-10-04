@@ -305,7 +305,10 @@ export default function HomePage() {
                     +971 56 432 1798
                   </a>
                   <span className="hidden sm:inline text-slate-300">•</span>
-                  <span>Available Sunday – Friday</span>
+                  <span className="inline-flex items-center gap-1 text-emerald-700 font-medium">
+                    <MessageCircle className="w-3.5 h-3.5" />
+                    <span>Direct Response via WhatsApp</span>
+                  </span>
                 </div>
               </div>
 
@@ -360,7 +363,7 @@ export default function HomePage() {
                         Specialization
                       </span>
                       <p className="text-sm font-semibold text-[#0B192C]">
-                        Independent Risk &amp; Portfolio Advisory
+                        Insurance, Real Estate &amp; Financial Advisory
                       </p>
                     </div>
                     <div className="text-right">
